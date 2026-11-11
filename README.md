@@ -33,6 +33,3 @@ I design and ship large Angular applications for regulated environments: custome
 
 More coming: an AML transaction-monitoring UI, an AI-assisted bug-triage workflow and an Angular migration toolkit.
 
-## Open to
-
-Remote, full-time **Senior / Staff Front-End** roles with international teams. English-speaking environments.
