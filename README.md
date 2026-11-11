@@ -27,9 +27,14 @@ I design and ship large Angular applications for regulated environments: custome
 
 ## Featured projects
 
-| Project | What it shows | Status |
-| --- | --- | --- |
-| [angular-enterprise-showcase](https://github.com/Iverspark/angular-enterprise-showcase) | B2B banking dashboard: JWT auth with refresh, role guards, virtualized tables with server-side state in the URL, typed forms, i18n, dark mode, a11y, full CI/CD | 🚧 In progress |
+### [Ledgerly — Angular enterprise showcase](https://github.com/iverson-viana/angular-enterprise-showcase)
+
+**[Live demo](https://ledgerly-eda.pages.dev)** · a B2B banking dashboard that shows how I structure a production-grade Angular app.
+
+- **Angular 22, the modern way:** standalone, zoneless, signals end to end (`httpResource`, `linkedSignal`), typed Signal Forms.
+- **Real-world features:** JWT auth with silent refresh, role-based access, server-paginated tables with state in the URL, a 10,000-row virtualized feed, a create/edit form with masks, checksums and async validation.
+- **Accessibility as a requirement:** WCAG 2.2 AA checked by `axe` in CI, Lighthouse accessibility 100.
+- **Tested and gated:** 161 unit and 21 e2e tests, 90% coverage enforced. Lint → unit → build → e2e must pass before every Cloudflare Pages deploy.
+- **EN / PT-BR at runtime** with compile-time-checked message keys, plus dark mode.
 
 More coming: an AML transaction-monitoring UI, an AI-assisted bug-triage workflow and an Angular migration toolkit.
-
